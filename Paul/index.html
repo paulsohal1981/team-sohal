@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind CSS Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@latest/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 text-gray-900">
+    <header class="bg-blue-500 text-white p-4">
+        <h1 class="text-2xl">Welcome to My Tailwind CSS Page</h1>
+    </header>
+    <main class="p-4">
+        <p class="mb-4">This is a simple page using the latest version of Tailwind CSS.</p>
+        <button class="bg-green-500 text-white px-4 py-2 rounded">Click Me</button>
+    </main>
+    <footer class="bg-blue-500 text-white p-4 mt-4">
+        <p>&copy; 2023 Paul Sohal</p>
+    </footer>
+</body>
+</html>
+<script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+<script>
+    new Vue({
+        el: 'main',
+        data: {
+            message: 'This is a simple page using the latest version of Tailwind CSS.',
+            buttonText: 'Click Me'
+        }
+    });
+</script>
